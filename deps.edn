@@ -4,8 +4,8 @@
                        :extra-deps  {com.widdindustries/tiado-cljs2
                                      { ;:local/root "../tiado-cljs2"
                                       :git/url "https://github.com/henryw374/tiado-cljs2.git"
-                                      :sha     "fbd9f3b8df3523ccf11bbc685836ce7f96f18068"
-                                      }
+                                      :sha     "fbd9f3b8df3523ccf11bbc685836ce7f96f18068"}
+
                                      cljsjs/js-joda-timezone {:mvn/version "2.2.0-0"}}}
            :test      {:extra-paths ["test"]
                        :extra-deps  {org.clojure/clojure       {:mvn/version "1.11.0"}
@@ -16,6 +16,6 @@
            :build     {:extra-paths ["dev"]
                        :extra-deps  {io.github.clojure/tools.build {:git/tag "v0.7.5" :git/sha "34727f7"}
                                      slipset/deps-deploy           {:mvn/version "RELEASE"}}
-                       :ns-default  build}}
+                       :ns-default  build}}}
 
- }
+
